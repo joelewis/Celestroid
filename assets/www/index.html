@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Celestia 12.0</title>
+
+<link rel="stylesheet" href="jquery.mobile/jquery.mobile-1.1.0.css" />
+<link rel="stylesheet" href="docs/assets/css/jqm-docs.css" />
+<link rel="stylesheet" href="docsdemos-style-override.css" />
+<script type="text/javascript" src="jquery.mobile/jquery-1.7.2.min"></script>
+<script type="text/javascript"
+	src="jquery.mobile/jquery.mobile-1.1.0.js"></script>
+<!-- Uncomment following line to access PhoneGap APIs (not necessary to use PhoneGap to package web app) -->
+<script type="text/javascript" charset="utf-8" src="cordova-2.0.0.js"></script>
+<script type="text/javascript" src="js/celestia12.js"></script>
+
+
+
+<!-- CDN Respositories: For production, replace lines above with these uncommented minified versions -->
+<!-- <link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.min.css" />-->
+<!-- <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>-->
+<!-- <script src="http://code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.min.js"></script>-->
+<script>
+	var count=0;
+	$(document).ready(function() { 
+		      init(); 
+		});// ready function
+</script>
+
+
+</head>
+<body>
+	<div data-role="page" id="home" class="type-home">
+		<div data-role="header">
+			<h1>Celestia 12.0</h1>
+		</div>
+		<!-- /header -->
+
+		<div data-role="content" id="cont">
+			<p id="deviceProperties">Please wait, Checking your connection....</p>
+		</div>
+		<p id="result">Loading updates...</p>
+		<!-- /content -->
+
+		<div data-role="footer" data-theme="a">
+			<p>&copy; 2012 Fix_ Corporation | Joecloudy </p>
+		</div>
+
+	</div><!-- page ends -->
+	<span id="pages">
+	</span>
+</body>
+</html>
