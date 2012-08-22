@@ -39,7 +39,7 @@ function startApp() {
 			var pagehtml = "";
 			$(xmlcontent).find("item").each(
 					function() {
-						listhtml += "<div data-role='collapsible'><h3>"
+						listhtml += "<div data-role='collapsible' ><h3>"
 								+ $(this).find('title').text() + "</h3><p>"
 								+ $(this).find('description').text()
 								+ "</p></div>";
